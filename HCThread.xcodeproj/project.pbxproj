@@ -15,6 +15,10 @@
 		471474FB2089830D00C055CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 471474FA2089830D00C055CD /* main.m */; };
 		471475052089830D00C055CD /* HCThreadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471475042089830D00C055CD /* HCThreadTests.m */; };
 		471475102089830D00C055CD /* HCThreadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714750F2089830D00C055CD /* HCThreadUITests.m */; };
+		4714751F2089843800C055CD /* PThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714751E2089843800C055CD /* PThreadController.m */; };
+		471475222089844F00C055CD /* NSThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471475212089844F00C055CD /* NSThreadController.m */; };
+		471475252089845E00C055CD /* GCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471475242089845E00C055CD /* GCDController.m */; };
+		471475282089847800C055CD /* OperationQueueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471475272089847800C055CD /* OperationQueueController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		4714750B2089830D00C055CD /* HCThreadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCThreadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4714750F2089830D00C055CD /* HCThreadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCThreadUITests.m; sourceTree = "<group>"; };
 		471475112089830D00C055CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4714751D2089843800C055CD /* PThreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PThreadController.h; sourceTree = "<group>"; };
+		4714751E2089843800C055CD /* PThreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PThreadController.m; sourceTree = "<group>"; };
+		471475202089844F00C055CD /* NSThreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadController.h; sourceTree = "<group>"; };
+		471475212089844F00C055CD /* NSThreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadController.m; sourceTree = "<group>"; };
+		471475232089845E00C055CD /* GCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDController.h; sourceTree = "<group>"; };
+		471475242089845E00C055CD /* GCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDController.m; sourceTree = "<group>"; };
+		471475262089847800C055CD /* OperationQueueController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationQueueController.h; sourceTree = "<group>"; };
+		471475272089847800C055CD /* OperationQueueController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationQueueController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				471474EC2089830D00C055CD /* AppDelegate.m */,
 				471474EE2089830D00C055CD /* ViewController.h */,
 				471474EF2089830D00C055CD /* ViewController.m */,
+				4714751D2089843800C055CD /* PThreadController.h */,
+				4714751E2089843800C055CD /* PThreadController.m */,
+				471475202089844F00C055CD /* NSThreadController.h */,
+				471475212089844F00C055CD /* NSThreadController.m */,
+				471475232089845E00C055CD /* GCDController.h */,
+				471475242089845E00C055CD /* GCDController.m */,
+				471475262089847800C055CD /* OperationQueueController.h */,
+				471475272089847800C055CD /* OperationQueueController.m */,
 				471474F12089830D00C055CD /* Main.storyboard */,
 				471474F42089830D00C055CD /* Assets.xcassets */,
 				471474F62089830D00C055CD /* LaunchScreen.storyboard */,
@@ -267,7 +287,11 @@
 			files = (
 				471474F02089830D00C055CD /* ViewController.m in Sources */,
 				471474FB2089830D00C055CD /* main.m in Sources */,
+				471475282089847800C055CD /* OperationQueueController.m in Sources */,
+				4714751F2089843800C055CD /* PThreadController.m in Sources */,
 				471474ED2089830D00C055CD /* AppDelegate.m in Sources */,
+				471475252089845E00C055CD /* GCDController.m in Sources */,
+				471475222089844F00C055CD /* NSThreadController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

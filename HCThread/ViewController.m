@@ -8,6 +8,11 @@
 
 #import "ViewController.h"
 
+#import "PThreadController.h"
+#import "NSThreadController.h"
+#import "GCDController.h"
+#import "OperationQueueController.h"
+
 @interface ViewController ()
 
 @end
@@ -16,13 +21,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+}
+
+- (IBAction)pushToPThread:(UIButton *)sender {
+    
+    [self.navigationController pushViewController:[PThreadController new] animated:YES];
+    
+}
+
+- (IBAction)pushToNSThread:(id)sender {
+    [self.navigationController pushViewController:[NSThreadController new] animated:YES];
+}
+
+- (IBAction)pushToGCD:(id)sender {
+    [self.navigationController pushViewController:[GCDController new] animated:YES];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)pushToOperation:(id)sender {
+    [self.navigationController pushViewController:[OperationQueueController new] animated:YES];
 }
 
 
